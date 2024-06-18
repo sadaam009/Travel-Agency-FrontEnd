@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 
@@ -11,18 +11,18 @@ export default function Header() {
 
         <div className=" flex space-x-6 font-bold" >
 
-          <li className=" list-none"><a href="">Home</a></li>
+          {/* <li className=" list-none"><a href="">Home</a></li>
           <li className=" list-none"><a href="">About</a></li>
           <li className=" list-none"><a href="">Destination</a></li>
           <li className=" list-none"><a href="">Tour</a></li>
-          <li className=" list-none"><a href="">Blog</a></li>
+          <li className=" list-none"><a href="">Blog</a></li> */}
 
-{/*         
+        
          <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/destination'>Destination</Link>
           <Link to='/tour'>Tour</Link>
-          <Link to='/blog'>Blog</Link> */}
+          <Link to='/blog'>Blog</Link>
           
         </div>
         <div className=" space-x-3">

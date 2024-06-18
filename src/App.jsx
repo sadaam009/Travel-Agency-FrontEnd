@@ -1,19 +1,24 @@
-// import { Routes,Route} from 'react-router-dom'
+import {BrowserRouter as Router , Routes,Route} from 'react-router-dom'
 
-import Header from './Components/Header'
-import Home from './Components/Home'
+import Header from'./Components/Header'
+import Footer from'./Components/Footer'
+// import Home from './Home'
 import Cardpl from './Components/Cardpl'
-import Bookcard from './Components/Bookcard'
-import VacationCard from './Components/VacationCard'
-import About from './Components/About'
-import Blog from './Components/Blog'
-import Footer from './Components/Footer'
-import Searchbar from './Components/Searchbar'
-// import Home1 from './Pages/Home1'
-// import About1 from './Pages/About1'
-// import Destination from './Pages/Destination'
-// import Tour from './Pages/Tour'
+// import Bookcard from './Bookcard'
+// import VacationCard from './VacationCard'
+// import About from './About'
+// import Blog from './Blog'
+// import Searchbar from './Searchbar'
+
+
+
+import Home1 from './Pages/Home1'
+import Tour from './Pages/Tour'
 // import Blog1 from './Pages/Blog1'
+import Destination from './Pages/Destination'
+import Display from './Components/Display'
+
+
 
 
 
@@ -21,30 +26,30 @@ import Searchbar from './Components/Searchbar'
 
 function App() {
  return(
+
   <>
-  <div className="">
+    <div className="">
+    <Router>
+  
   <Header/>
-  <Home/>
-  <Searchbar/>
-  <Cardpl/>
-  <Bookcard/>
-  <VacationCard/>
-  <About/>
-  <Blog/>
+
+     <Routes>
+        
+        <Route path="/about" element={<Destination/>}/>
+      
+        <Route path="/tour" element={<Home1/>}/>
+        <Route path="/blog" element={<Tour/>}/>
+      </Routes>
+       
+      <Display/>
+
+    </Router>
+ 
+  </div>
+  <div className="">
   <Footer/>
-  
-  
-
-</div>
-
-{/* <Routes>
-    <Route path='/' element={<Home1/>}/>
-    <Route path='/about' element={<About1/>}/>
-    <Route path='/destination' element={<Destination/>}/>
-    <Route path='/tour' element={<Tour />}/>
-    <Route path='/blog' element={<Blog1/>}/>
-
-  </Routes> */}
+  </div>
+ 
   </>
 
  )
