@@ -29,23 +29,23 @@ export default function Footer() {
           </div>
 
           <div className=''>
-          <h1 className=' text-[1.2rem] font-semibold  '>Company</h1>
+          <h1 className=' text-[1.2rem] font-semibold  '>Contact</h1>
            <div className=" mt-[2rem] space-y-[0.8rem] text-gray-500  ">
-           <li className=' list-none'> <a href="">About</a></li>
-            <li className=' list-none'> <a href="">Careers</a></li>
-            <li className=' list-none'><a href="">Logistic</a></li>
-            <li className=' list-none'> <a href="">Privacy & Policy</a></li>
+           <li className=' list-none'> <a href="">Help/FAQ</a></li>
+            <li className=' list-none'> <a href="">Press</a></li>
+            <li className=' list-none'><a href="">Affilates</a></li>
+          
            </div>
 
           </div>
 
           <div className=''>
-          <h1 className=' text-[1.2rem] font-semibold  '>Company</h1>
+          <h1 className=' text-[1.2rem] font-semibold  '>More</h1>
            <div className=" mt-[2rem] space-y-[0.8rem] text-gray-500  ">
-           <li className=' list-none'> <a href="">About</a></li>
-            <li className=' list-none'> <a href="">Careers</a></li>
-            <li className=' list-none'><a href="">Logistic</a></li>
-            <li className=' list-none'> <a href="">Privacy & Policy</a></li>
+           <li className=' list-none'> <a href="">Press Centre</a></li>
+            <li className=' list-none'> <a href="">Our Blog</a></li>
+            <li className=' list-none'><a href="">Low fare tips</a></li>
+          
            </div>
 
           </div>

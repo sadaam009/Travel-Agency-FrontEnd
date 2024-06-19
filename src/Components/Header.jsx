@@ -9,7 +9,7 @@ export default function Header() {
     <div className=' flex justify-between mx-[6rem] items-center  mt-3 '>
         <h1 className=' text-2xl font-bold'>Trabook</h1>
 
-        <div className=" flex space-x-6 font-bold" >
+        <div className=" flex space-x-8 text-[1.1rem] font-Far font-semibold" >
 
           {/* <li className=" list-none"><a href="">Home</a></li>
           <li className=" list-none"><a href="">About</a></li>
@@ -20,7 +20,7 @@ export default function Header() {
         
          <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
-          <Link to='/destination'>Destination</Link>
+          {/* <Link to='/destination'>Destination</Link> */}
           <Link to='/tour'>Tour</Link>
           <Link to='/blog'>Blog</Link>
           

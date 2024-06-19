@@ -58,7 +58,7 @@ export default function Bookcard() {
         <div className="">
 
           <div className=" flex items-center justify-between mx-[1rem] mt-[2rem]   ">
-            <h1 className='text-[1.5rem] font-semibold  font-Far'>Firenze</h1>
+            <h1 className='text-[1.5rem] font-semibold  font-Far'>Bali</h1>
             <p> <i class="fa-solid fa-star  pr-2 text-yellow-300  "></i>4.5</p>
           </div>
 
@@ -87,7 +87,7 @@ export default function Bookcard() {
         <img src={hotel3} alt="" />
         <div className="">
         <div className=" flex items-center justify-between mx-[1rem] mt-[2rem]   ">
-            <h1 className='text-[1.5rem] font-semibold  font-Far'>Firenze</h1>
+            <h1 className='text-[1.5rem] font-semibold  font-Far'>Maldives</h1>
             <p> <i class="fa-solid fa-star  pr-2 text-yellow-300  "></i>3.5</p>
           </div>
 
@@ -117,7 +117,7 @@ export default function Bookcard() {
         <img className=' ' src={hotel4} alt="" />
         <div className="">
         <div className=" flex items-center justify-between mx-[1rem] mt-[2rem]   ">
-            <h1 className='text-[1.5rem] font-semibold  font-Far'>Firenze</h1>
+            <h1 className='text-[1.5rem] font-semibold  font-Far'>New York</h1>
             <p> <i class="fa-solid fa-star  pr-2 text-yellow-300  "></i>5.9</p>
           </div>
 

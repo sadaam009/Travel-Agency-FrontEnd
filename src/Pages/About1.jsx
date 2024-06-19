@@ -1,7 +1,10 @@
 import React from 'react'
+import About from '../Components/About'
 
 export default function About1() {
   return (
-    <div>About1</div>
+    <div>
+      <About/>
+    </div>
   )
 }
